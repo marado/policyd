@@ -20,7 +20,7 @@ Name: cluebringer
 Version: %{version}
 Release: %{release}
 License: GPLv2
-Group: System/Daemons
+Group: System Environment/Daemons
 URL: http://www.policyd.org
 Source0: http://downloads.sourceforge.net/policyd/%{name}-%{tarver}.tar.bz2
 
