@@ -29,8 +29,8 @@ BuildArch: noarch
 
 Provides: cbpolicyd
 
-Provides: policyd = %{version}
-Obsoletes: policyd
+Provides: policyd = %{version}, cluebringer = %{version}
+Obsoletes: policyd < 2
 
 Requires: perl(Net::Server), perl(Config::IniFiles), perl(Cache::FastMmap), httpd
 
