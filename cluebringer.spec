@@ -137,12 +137,12 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Thu May 10 2012 Nigel Kukard  <nkukard@lbsd.net>
+* Thu May 10 2012	Nigel Kukard	<nkukard@lbsd.net>
 - Released v2.1.x-201205100639
 
-* Wed Nov 19 2008 Nigel Kukard  <nkukard@lbsd.net>
+* Wed Nov 19 2008	Nigel Kukard	<nkukard@lbsd.net>
 - Various updates and changes
 
-* Tue Nov 18 2008 Christopher St Pierre <stpierre@NebrWesleyan.edu> - 
+* Tue Nov 18 2008	Christopher St Pierre	<stpierre@NebrWesleyan.edu>
 - Initial build.
 
