@@ -22,7 +22,7 @@ Release: %{release}
 License: GPLv2
 Group: System Environment/Daemons
 URL: http://www.policyd.org
-Source0: http://downloads.sourceforge.net/policyd/%{name}-%{tarver}.tar.bz2
+Source0: http://devlabs.linuxassist.net/attachments/download/229/%{name}-%{tarver}.tar.bz2
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
