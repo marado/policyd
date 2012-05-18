@@ -27,9 +27,7 @@ Source0: http://downloads.sourceforge.net/policyd/%{name}-%{tarver}.tar.bz2
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch: noarch
 
-Provides: cbpolicyd
-
-Provides: policyd = %{version}, cluebringer = %{version}
+Provides: cbpolicyd = %{version}, policyd = %{version}, cluebringer = %{version}
 Obsoletes: policyd < 2
 
 Requires: perl(Net::Server), perl(Config::IniFiles), perl(Cache::FastMmap), httpd
