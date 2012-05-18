@@ -1,18 +1,18 @@
-%define apacheconfdir %{_sysconfdir}/httpd/conf.d
+%global apacheconfdir %{_sysconfdir}/httpd/conf.d
 # this path is hardcoded
-%define cblibdir %{_libdir}/policyd-2.1
-%define awitptlibdir %{_libdir}/policyd-2.1
+%global cblibdir %{_libdir}/policyd-2.1
+%global awitptlibdir %{_libdir}/policyd-2.1
 
-%define cvsver 201205100639
+%global cvsver 201205100639
 
 %if %{cvsver}
-%define version 2.1.x
-%define release %{cvsver}
-%define tarver snapshot-%{version}-%{cvsver}
+%global version 2.1.x
+%global release %{cvsver}
+%global tarver snapshot-%{version}-%{cvsver}
 %else
-%define version 2.0.12
-%define release 1
-%define tarver %{version}
+%global version 2.0.12
+%global release 1
+%global tarver %{version}
 %endif
 
 Summary: Postfix Policy Daemon
@@ -55,7 +55,7 @@ cat << EOF > %{name}-req
 %{__perl_requires} $* | sed -e '/perl(cbp::/d' | sed -e '/perl(awt::/d'
 EOF
 
-%define __perl_requires %{_builddir}/%{name}-%{tarver}/%{name}-req
+%global __perl_requires %{_builddir}/%{name}-%{tarver}/%{name}-req
 chmod +x %{__perl_requires}
 
 
